@@ -1,0 +1,23 @@
+{
+  "name": "tailwinddemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./style/styles.css -o ./dist/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/preneuscliford/tailwinddemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/preneuscliford/tailwinddemo/issues"
+  },
+  "homepage": "https://github.com/preneuscliford/tailwinddemo#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.17"
+  }
+}
